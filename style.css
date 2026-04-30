@@ -195,9 +195,11 @@ li button {
 }
 
 li button:hover {
-  background: rgba(255,255,255,0.16);
-  box-shadow: none;
-  transform: none;
+  background: #ffffff;
+  color: #111827;
+  border: 1px solid rgba(255,255,255,0.15);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+  transform: translateY(-1px);
 }
 
 /* Scroll if many items */
