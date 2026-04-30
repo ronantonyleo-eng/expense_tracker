@@ -122,7 +122,11 @@ select {
   color: #ffffff;
   font-size: 15px;
   outline: none;
-  transition: 0.25s ease;
+}
+
+select option {
+  background: #ffffff;
+  color: #111827;
 }
 
 input::placeholder {
