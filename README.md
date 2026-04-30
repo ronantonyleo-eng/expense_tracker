@@ -38,14 +38,6 @@ expense-tracker/
 
 The transactions data is stored in **Local Storage** for persistence even after page refresh.
 
-## Live Application
-
-Add GitHub Pages / Netlify deployment URL.
-
-## 📸 Screenshots
-
-Add screenshots here.
-
 ## Additional Enhancements
 
 - Dark theme
