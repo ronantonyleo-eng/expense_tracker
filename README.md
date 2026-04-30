@@ -1,24 +1,24 @@
-# 💰 Expense Tracker
+# Expense Tracker
 
-A simple and responsive Expense Tracker web app to manage your income and expenses easily.
+An efficient and responsive Expense Tracker web application to help you manage your income and expenses effortlessly.
 
-## 🚀 Features
+## Features
 
-- Add income and expense transactions
-- Automatically calculate total balance
-- View total income and expenses
-- Delete transactions
-- Data saved using Local Storage
-- Mobile responsive design
-- Clean and modern UI
+- Adding income and expense records
+- Automatic calculation of the balance
+- Total income and expenses displayed
+- Deleting transactions
+- Local storage of the data
+- Responsive design
+- Modern user interface
 
-## 🛠 Technologies Used
+## Technologies Used
 
 - HTML5
 - CSS3
 - JavaScript
 
-## 📂 Project Structure
+## Project Structure
 
 expense-tracker/
 │── index.html
@@ -26,38 +26,38 @@ expense-tracker/
 │── script.js
 │── README.md
 
-## ▶️ How to Use
+## Usage Instructions
 
 1. Enter transaction description  
 2. Enter amount  
-3. Select Income or Expense  
-4. Click **Add Transaction**  
-5. View balance updates instantly
+3. Choose Income or Expense  
+4. Click on **Add Transaction**  
+5. View automatic update of the balance
 
-## 💾 Data Storage
+## Data Storage
 
-All transactions are stored in your browser using **Local Storage**, so your data remains after refresh.
+The transactions data is stored in **Local Storage** for persistence even after page refresh.
 
-## 🌐 Live Demo
+## Live Application
 
-Add your GitHub Pages / Netlify link here.
+Add GitHub Pages / Netlify deployment URL.
 
-## 📸 Screenshot
+## 📸 Screenshots
 
-Add screenshot here.
+Add screenshots here.
 
-## 📈 Future Improvements
+## Additional Enhancements
 
-- Dark mode
-- Monthly analytics charts
-- Categories (Food, Travel, Bills)
-- Export data to CSV
-- User login system
+- Dark theme
+- Chart visualisation of monthly analysis
+- Categories (Food, Travel, Bills, etc.)
+- Download of transaction data as CSV file
+- User authentication module
 
-## 👨‍💻 Author
+## Author
 
 Ron Antony Leo
 
-## 📄 License
+## License
 
 MIT License
