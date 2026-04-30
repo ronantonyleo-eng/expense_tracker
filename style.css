@@ -1,0 +1,176 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #dbeafe, #eff6ff);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* Main Container */
+.container {
+  width: 100%;
+  max-width: 500px;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 18px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* Headings */
+h1 {
+  text-align: center;
+  color: #1e3a8a;
+  margin-bottom: 8px;
+}
+
+p {
+  text-align: center;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Summary Cards */
+.summary {
+  margin-bottom: 25px;
+}
+
+.card {
+  background: #f8fafc;
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 12px;
+}
+
+.balance p {
+  font-size: 28px;
+  font-weight: bold;
+  color: #111827;
+}
+
+.income-expense {
+  display: flex;
+  gap: 10px;
+}
+
+.income,
+.expense {
+  flex: 1;
+}
+
+.income p {
+  color: #16a34a;
+  font-weight: bold;
+}
+
+.expense p {
+  color: #dc2626;
+  font-weight: bold;
+}
+
+/* Form */
+.form-box h2,
+.history h2 {
+  color: #1e3a8a;
+  margin-bottom: 12px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #374151;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border-color: #2563eb;
+}
+
+/* Button */
+button {
+  width: 100%;
+  margin-top: 15px;
+  padding: 12px;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+/* History */
+.history {
+  margin-top: 25px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  background: #f9fafb;
+  padding: 12px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-right: 5px solid transparent;
+}
+
+li.plus {
+  border-right-color: #16a34a;
+}
+
+li.minus {
+  border-right-color: #dc2626;
+}
+
+li button {
+  width: auto;
+  padding: 6px 10px;
+  margin-top: 0;
+  font-size: 14px;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .income-expense {
+    flex-direction: column;
+  }
+
+  .container {
+    padding: 18px;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+}
